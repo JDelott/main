@@ -60,7 +60,7 @@ export default function About() {
               <p className="font-medium ">
                 Hi, I&apos;m <strong>Jacob Delott</strong>, a web developer
                 with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 1 years
+                functional, and user-centered digital experiences. With 2 years
                 of experience. I am always looking for new and
                 innovative ways to bring my clients&apos; visions to life.
               </p>

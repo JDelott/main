@@ -89,7 +89,7 @@ const Experience = () => {
             />
 
             <Details
-              position="Proffessional Bass Player"
+              position="Professional Bass Player"
               company="Freelance"
               // companyLink="https://microsoft.com"
               time="2011-Present"
