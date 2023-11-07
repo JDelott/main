@@ -47,14 +47,20 @@ const Education = () => {
             type="Advanced Software Engineering Certificate"
             time="2023"
             place="Hack Reactor"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Web Design."
           />
 
           <Details
             type="Associates Degree"
             time="2011-2013"
             place="Musician's Institute"
-            info="Completed an Associates in Bass Performance."
+            info={
+              <>
+                Completed an Associates Degree in Bass Performance.
+                <br />
+                Graduated with the Best Bass Student Award
+              </>
+            }
           />
 
           

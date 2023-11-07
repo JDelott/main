@@ -47,7 +47,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="About Jacob Delott"
+            text="Jacob Delott"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -60,8 +60,8 @@ export default function About() {
               <p className="font-medium ">
                 Hi, I&apos;m <strong>Jacob Delott</strong>, a web developer
                 with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 2 years
-                of experience. I am always looking for new and
+                functional, and user-centered digital experiences. 
+                I am always looking for new and
                 innovative ways to bring my clients&apos; visions to life.
               </p>
               <p className="my-4 font-medium">
@@ -89,7 +89,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={profile}
-                alt="Codebucks"
+                alt="Pic"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
@@ -114,7 +114,7 @@ export default function About() {
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Collaborations and Teams
+                  Collaborations & Teams
                 </h2>
               </div>
 
@@ -124,7 +124,7 @@ export default function About() {
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  business startups
+                  Business Startups
                 </h2>
               </div>
             </div>

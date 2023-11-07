@@ -76,7 +76,7 @@ const Experience = () => {
               companyLink="https://ovationautodetail.com"
               time="2020-2023"
               address="Los Angeles, CA"
-              work="Started and operated an auto detail company, catering to high end vehicles"
+              work="Started and operated an auto detail company, catering to high end vehicles, and establishing accounts with luxury apartments in Los Angeles, CA. The business evolved through referrals and online marketing. After 2 years a customer database of over 250 clients was created and managed."
             />
 
             <Details
@@ -85,7 +85,7 @@ const Experience = () => {
               companyLink="https://digiland.com"
               time="2014-2020"
               address="Los Angeles, CA"
-              work="Worked on a team responsible for coordinating productions, assisting executives, managing vendors."
+              work="Worked on a team responsible for coordinating productions, assisting executives, and managing vendors in the entertainment industry. Supported daily operations of the facility and tenant communications"
             />
 
             <Details
@@ -94,7 +94,7 @@ const Experience = () => {
               // companyLink="https://microsoft.com"
               time="2011-Present"
               address="Los Angeles, CA"
-              work="Toured around the country playing bass in multiple musical ensembles, bands and cover gigs."
+              work="Toured around the country playing bass in multiple musical ensembles, bands and cover gigs. Started dozens of  musical projects that have yielded revenue from multiple streaming platforms. "
             />
 
             

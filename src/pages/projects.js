@@ -8,6 +8,7 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/plh.png";
 import proj2 from "../../public/images/projects/CarCar.png";
 import proj3 from "../../public/images/projects/ShadowWrestler.png";
+import proj4 from "../../public/images/projects/ConferenceGo.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -175,7 +176,7 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Happy Coding!"
+            text="Projects"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
@@ -184,24 +185,24 @@ export default function Projects() {
                 type="Featured Project"
                 title="Idaho Dog Sled Tour Website"
                 summary={
-        <ul className="list-inside">
-          <li>
-            Co-developed a full-stack application for a dog sled business.
-          </li>
-          <li>
-            Enabled the business owner and users to manage and create bookings and payment.
-          </li>
-          <li>
-            Used a FastAPI / PostgreSQL backend for robust data storage and retrieval.
-          </li>
-          <li>
-            Ensured optimal performance and reliability for handling API requests.
-          </li>
-          <li>
-            Built a user-friendly UI using React and Bootstrap.
-          </li>
-        </ul>
-      }
+                    <ul className="list-inside">
+                      <li>
+                        Co-developed a full-stack application for a dog sled business.
+                      </li>
+                      <li>
+                        Enabled the business owner and users to manage and create bookings and payment.
+                      </li>
+                      <li>
+                        Used a FastAPI / PostgreSQL backend for robust data storage and retrieval.
+                      </li>
+                      <li>
+                        Ensured optimal performance and reliability for handling API requests.
+                      </li>
+                      <li>
+                        Built a user-friendly UI using React and Bootstrap.
+                      </li>
+                    </ul>
+                  }
                 img={proj1}
                 link="https://snow-dogs.gitlab.io/priest-lake-huskies/"
                 github="https://gitlab.com/snow-dogs/priest-lake-huskies"
@@ -223,6 +224,15 @@ export default function Projects() {
                 img={proj3}
                 link="https://shadow-wrestler.com"
                 github="https://github.com/JDelott/jdelott.github.io"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
+                title="ConferenceGo"
+                img={proj4}
+                link="https://help.dreamhost.com/hc/en-us/articles/215613517-Site-not-found"
+                github="https://github.com/JDelott/"
               />
             </div>
             
