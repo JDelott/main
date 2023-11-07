@@ -8,6 +8,8 @@ import LiIcon from "./LiIcon";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
+
+  const skills = work.split('\n');
   return (
     <li
       ref={ref}
@@ -67,7 +69,10 @@ const Experience = () => {
               // companyLink="https://google.com"
               time="Present"
               address="Los Angeles, CA"
-              work="Self-Employed"
+              work="Programming Languages | Python, JavaScript, SQL, HTML5, CSS
+                    Front-End | React, Next.js, Tailwind, Bootstrap, Figma, Framer
+                    Back-End | Django 4, PostgreSQL, FastAPI, RabbitMQ, Docker
+                    System Design | Microservices, Domain-driven design, Message passing"
             />
 
             <Details

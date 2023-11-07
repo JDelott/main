@@ -88,7 +88,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
   );
 };
 
-const Project = ({ title, type, img, link, github }) => {
+const Project = ({ title, type, summary, img, link, github }) => {
 
   return (
     <article
@@ -133,6 +133,9 @@ const Project = ({ title, type, img, link, github }) => {
             {title}
           </h2>
         </Link>
+        <p className=" my-2 rounded-md font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="flex w-full items-center  justify-between">
           <Link
             href={link}
@@ -212,6 +215,17 @@ export default function Projects() {
               <Project
                 type="Website"
                 title="Car Dealership Admin Site"
+                summary={
+                  <ul className="list-inside">
+                      <li>
+                        Full Stack Application for managing a car dearership.
+                      </li>
+                       <li>
+                        Skills: React, Django, BootStrap, Docker, Rest API
+                      </li>
+                    </ul>
+
+                }
                 img={proj2}
                 link="https://help.dreamhost.com/hc/en-us/articles/215613517-Site-not-found"
                 github="https://gitlab.com/JacobDelott/Car-Dealership"
@@ -221,6 +235,16 @@ export default function Projects() {
               <Project
                 type="Website"
                 title="Shadow Wrestler"
+                summary={
+                    <ul className="list-inside">
+                      <li>
+                        Built a user-friendly UI for wrestling athletes to practice with. 
+                      </li>
+                      <li>
+                        Skills: React, Tailwind, Figma 
+                      </li>
+                    </ul>
+                  }
                 img={proj3}
                 link="https://shadow-wrestler.com"
                 github="https://github.com/JDelott/jdelott.github.io"
@@ -230,6 +254,16 @@ export default function Projects() {
               <Project
                 type="Website"
                 title="ConferenceGo"
+                summary={
+                    <ul className="list-inside">
+                      <li>
+                        Full Stack Application for managing a conference business.
+                      </li>
+                      <li>
+                        Skills: Django, Html/CSS, Insomnia, Message Passing
+                      </li>
+                    </ul>
+                  }
                 img={proj4}
                 link="https://help.dreamhost.com/hc/en-us/articles/215613517-Site-not-found"
                 github="https://github.com/JDelott/"
