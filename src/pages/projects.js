@@ -9,6 +9,7 @@ import proj1 from "../../public/images/projects/plh.png";
 import proj2 from "../../public/images/projects/CarCar.png";
 import proj3 from "../../public/images/projects/ShadowWrestler.png";
 import proj4 from "../../public/images/projects/ConferenceGo.png";
+import proj5 from "../../public/images/projects/RateMovies123.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -209,6 +210,26 @@ export default function Projects() {
                 img={proj1}
                 link="https://snow-dogs.gitlab.io/priest-lake-huskies/"
                 github="https://gitlab.com/snow-dogs/priest-lake-huskies"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
+                title="Movie & TV Show Rating Site "
+                summary={
+                  <ul className="list-inside">
+                      <li>
+                        Front End application that fetches data from a movie api
+                      </li>
+                       <li>
+                        Skills: Vite, React, Typescript, Tailwind, Front End Authorization
+                      </li>
+                    </ul>
+
+                }
+                img={proj5}
+                link="https://ratemovies123.com/"
+                github="https://github.com/JDelott/MovieRatingAppTest"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
