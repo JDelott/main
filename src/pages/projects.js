@@ -10,6 +10,7 @@ import proj2 from "../../public/images/projects/CarCar.png";
 import proj3 from "../../public/images/projects/ShadowWrestler.png";
 import proj4 from "../../public/images/projects/ConferenceGo.png";
 import proj5 from "../../public/images/projects/RateMovies123.png";
+import proj6 from "../../public/images/projects/cryptotable.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -210,6 +211,26 @@ export default function Projects() {
                 img={proj1}
                 link="https://snow-dogs.gitlab.io/priest-lake-huskies/"
                 github="https://gitlab.com/snow-dogs/priest-lake-huskies"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
+                title="Crypto Currency UI "
+                summary={
+                  <ul className="list-inside">
+                      <li>
+                        Front End application that uses Axios to get data from a crypto api and routes to different pages. 
+                      </li>
+                       <li>
+                        Skills: React, CSS, Axios
+                      </li>
+                    </ul>
+
+                }
+                img={proj6}
+                link="https://cryptoprojectjld.com/"
+                github="https://github.com/JDelott/crypto-api-cg"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
