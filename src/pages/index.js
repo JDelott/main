@@ -43,7 +43,7 @@ export default function Home() {
                 text="Full Stack Developer"
                 className="!text-center text-base lg:text-xl"/>
               <p className="!text-center my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects, showcasing my experience in React.js and web development.
+               Python | React | PostgreSQL
               </p>
               <div className="mt-2 flex items-center self-center justify-center lg:self-center">
                 <Link

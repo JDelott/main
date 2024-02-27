@@ -102,19 +102,9 @@ export default function About() {
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={1000} />+
                 </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                <h2 className="mb- text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Hours spent coding 
-                </h2>
-              </div>
-
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={20} />+
-                </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Collaborations & Teams
                 </h2>
               </div>
 
@@ -124,8 +114,18 @@ export default function About() {
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Business Startups
+                  Collaborations & Teams 
                 </h2>
+              </div>
+
+              <div className="flex flex-col items-end justify-center xl:items-center">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                  {/* <AnimatedNumberFramerMotion value={} /> */}
+                </span>
+                {/* <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                xl:text-center md:text-lg sm:text-base xs:text-sm">
+                  Business Startups
+                </h2> */}
               </div>
             </div>
           </div>
