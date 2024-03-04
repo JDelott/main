@@ -11,6 +11,8 @@ import proj3 from "../../public/images/projects/ShadowWrestler.png";
 import proj4 from "../../public/images/projects/ConferenceGo.png";
 import proj5 from "../../public/images/projects/RateMovies123.png";
 import proj6 from "../../public/images/projects/cryptotable.gif";
+import proj7 from "../../public/images/projects/flashcardaiworkinggif.gif";
+
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -188,17 +190,45 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
+                title="FlashcardAi"
+                summary={
+                    <ul className="list-inside">
+                      <li>
+                        -Python / FastAPI / PostgreSQL / Docker backend for data storage and retrieval
+                      </li>
+                      <li>
+                        -React Frontend with frontend JWT authentication, CSS,
+                      </li>
+                      <li>
+                        -OpenAI API endpoint with FastAPI to create question and answers for flashcards
+                      </li>
+                      <li>
+                        -React frontend for user to input subject for flashcard generation
+                      </li>
+                      
+                    </ul>
+                  }
+                img={proj7}
+                link="www.flashcardai.com"
+                github="https://github.com/miguemigue25/flashcard"
+              />
+            </div>
+            
+            
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project"
                 title="Idaho Dog Sled Tour Website"
                 summary={
                     <ul className="list-inside">
                       <li>
-                        Co-developed a full-stack application for a dog sled business.
+                        -Used a FastAPI / PostgreSQL backend for robust data storage and retrieval.
+                      </li>
+                      <li>
+                        -React Frontend with frontend JWT authentication
                       </li>
                       <li>
                         Enabled the business owner and users to manage and create bookings and payment.
-                      </li>
-                      <li>
-                        Used a FastAPI / PostgreSQL backend for robust data storage and retrieval.
                       </li>
                       <li>
                         Ensured optimal performance and reliability for handling API requests.
@@ -220,7 +250,7 @@ export default function Projects() {
                 summary={
                   <ul className="list-inside">
                       <li>
-                        Front End application that uses Axios to get data from a crypto api and routes to different pages. 
+                        React Front End application that uses Axios to get data from a crypto api and routes to different pages. 
                       </li>
                        <li>
                         Skills: React, CSS, Axios
@@ -240,7 +270,7 @@ export default function Projects() {
                 summary={
                   <ul className="list-inside">
                       <li>
-                        Front End application that fetches data from a movie api
+                        React Typescript Front End application that fetches data from a movie api
                       </li>
                        <li>
                         Skills: Vite, React, Typescript, Tailwind, Front End Authorization

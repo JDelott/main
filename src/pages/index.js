@@ -81,7 +81,7 @@ export default function Home() {
                 >
                   LinkedIn
                 </Link>
-                <Link
+                {/* <Link
                   href="https://gitlab.com/JacobDelott"
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2 px-4 text-base font-semibold
                   capitalize text-light hover:border-dark hover-bg-transparent hover-text-dark 
@@ -90,7 +90,7 @@ export default function Home() {
                   download
                 >
                   GitLab
-                </Link>
+                </Link> */}
                 <Link
                   href="https://github.com/JDelott"
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2 px-4 text-base font-semibold
