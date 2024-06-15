@@ -14,7 +14,7 @@ import proj6 from "../../public/images/projects/cryptotable.gif";
 import proj7 from "../../public/images/projects/flashcardaiworkinggif.gif";
 import proj8 from "../../public/images/projects/Pizza.png";
 import proj9 from "../../public/images/projects/ovation.png";
-import proj10 from "../../public/images/projects/domino.png";
+import proj10 from "../../public/images/projects/Domino.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 
