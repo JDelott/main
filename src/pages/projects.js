@@ -12,14 +12,15 @@ import proj4 from "../../public/images/projects/ConferenceGo.png";
 import proj5 from "../../public/images/projects/RateMovies123.png";
 import proj6 from "../../public/images/projects/cryptotable.gif";
 import proj7 from "../../public/images/projects/flashcardaiworkinggif.gif";
-
+import proj8 from "../../public/images/projects/Pizza.png";
+import proj9 from "../../public/images/projects/ovation.png";
+import proj10 from "../../public/images/projects/domino.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
-
   return (
     <article
       className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
@@ -93,7 +94,6 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
 };
 
 const Project = ({ title, type, summary, img, link, github }) => {
-
   return (
     <article
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
@@ -190,54 +190,125 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="FlashcardAi"
+                title="ST Pizza"
                 summary={
-                    <ul className="list-inside">
-                      <li>
-                        -Python / FastAPI / PostgreSQL / Docker backend for data storage and retrieval
-                      </li>
-                      <li>
-                        -React Frontend with frontend JWT authentication, CSS,
-                      </li>
-                      <li>
-                        -OpenAI API endpoint with FastAPI to create question and answers for flashcards
-                      </li>
-                      <li>
-                        -React frontend for user to input subject for flashcard generation
-                      </li>
-                      
-                    </ul>
-                  }
+                  <ul className="list-inside">
+                    <li>
+                      -MERN / MongoDB / Express / React/ Next.js/ AWS/ Google
+                      Auth, Clerk, Stripe
+                    </li>
+                    <li>
+                      -Created Pizza website for customers to order
+                      pickup/delivery
+                      <br />
+                      -Business owner admin portal for menu, customer and
+                      payment updates/revisions
+                    </li>
+                    <li>
+                      -React Frontend with Next.js, Tailwind, AWS for image
+                      storage,
+                    </li>
+                    <li>-Express backend and Mongo Database</li>
+                    <li>-Stripe Integration for customer payment</li>
+                  </ul>
+                }
+                img={proj8}
+                link="https://food-ordering-app-five-omega.vercel.app/"
+                github="https://github.com/JDelott/food-ordering-app"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project"
+                title="Domino Web Services"
+                summary={
+                  <ul className="list-inside">
+                    <li>-Next.js / React / Tailwind, Shadcn/ui</li>
+                    <li>-Animations: Framer, Acernity,</li>
+                    <li>-Deployed with Vercel</li>
+                  </ul>
+                }
+                img={proj10}
+                link="https://domino-prototype-main.vercel.app/"
+                github="https://github.com/JDelott/domino-prototype-main"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project"
+                title="Ovation Auto Detail"
+                summary={
+                  <ul className="list-inside">
+                    <li>
+                      -Created Auto Detail website for local business Ovation
+                      Auto Detail
+                    </li>
+                    <li>
+                      -React Frontend, Tailwind, Darkmode, AOS animations
+                      library
+                    </li>
+                    <li>-Created with Vite, Deployed with Vercel</li>
+                  </ul>
+                }
+                img={proj9}
+                link="https://ovation-auto-detail.vercel.app/"
+                github="https://github.com/JDelott/ovation-auto-detail"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project"
+                title="Flashcard Ai"
+                summary={
+                  <ul className="list-inside">
+                    <li>
+                      -Python / FastAPI / PostgreSQL / Docker backend for data
+                      storage and retrieval
+                    </li>
+                    <li>
+                      -React Frontend with frontend JWT authentication, CSS,
+                    </li>
+                    <li>
+                      -OpenAI API endpoint with FastAPI to create question and
+                      answers for flashcards
+                    </li>
+                    <li>
+                      -React frontend for user to input subject for flashcard
+                      generation
+                    </li>
+                  </ul>
+                }
                 img={proj7}
                 link="www.flashcardai.com"
                 github="https://github.com/miguemigue25/flashcard"
               />
             </div>
-            
-            
+
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
                 title="Idaho Dog Sled Tour Website"
                 summary={
-                    <ul className="list-inside">
-                      <li>
-                        -Used a FastAPI / PostgreSQL backend for robust data storage and retrieval.
-                      </li>
-                      <li>
-                        -React Frontend with frontend JWT authentication
-                      </li>
-                      <li>
-                        Enabled the business owner and users to manage and create bookings and payment.
-                      </li>
-                      <li>
-                        Ensured optimal performance and reliability for handling API requests.
-                      </li>
-                      <li>
-                        Built a user-friendly UI using React and Bootstrap.
-                      </li>
-                    </ul>
-                  }
+                  <ul className="list-inside">
+                    <li>
+                      -Used a FastAPI / PostgreSQL backend for robust data
+                      storage and retrieval.
+                    </li>
+                    <li>-React Frontend with frontend JWT authentication</li>
+                    <li>
+                      Enabled the business owner and users to manage and create
+                      bookings and payment.
+                    </li>
+                    <li>
+                      Ensured optimal performance and reliability for handling
+                      API requests.
+                    </li>
+                    <li>Built a user-friendly UI using React and Bootstrap.</li>
+                  </ul>
+                }
                 img={proj1}
                 link="https://snow-dogs.gitlab.io/priest-lake-huskies/"
                 github="https://gitlab.com/snow-dogs/priest-lake-huskies"
@@ -249,14 +320,12 @@ export default function Projects() {
                 title="Crypto Currency UI "
                 summary={
                   <ul className="list-inside">
-                      <li>
-                        React Front End application that uses Axios to get data from a crypto api and routes to different pages. 
-                      </li>
-                       <li>
-                        Skills: React, CSS, Axios
-                      </li>
-                    </ul>
-
+                    <li>
+                      React Front End application that uses Axios to get data
+                      from a crypto api and routes to different pages.
+                    </li>
+                    <li>Skills: React, CSS, Axios</li>
+                  </ul>
                 }
                 img={proj6}
                 link="https://cryptoprojectjld.com/"
@@ -269,14 +338,15 @@ export default function Projects() {
                 title="Movie & TV Show Rating Site "
                 summary={
                   <ul className="list-inside">
-                      <li>
-                        React Typescript Front End application that fetches data from a movie api
-                      </li>
-                       <li>
-                        Skills: Vite, React, Typescript, Tailwind, Front End Authorization
-                      </li>
-                    </ul>
-
+                    <li>
+                      React Typescript Front End application that fetches data
+                      from a movie api
+                    </li>
+                    <li>
+                      Skills: Vite, React, Typescript, Tailwind, Front End
+                      Authorization
+                    </li>
+                  </ul>
                 }
                 img={proj5}
                 link="https://ratemovies123.com/"
@@ -289,14 +359,11 @@ export default function Projects() {
                 title="Car Dealership Admin Site"
                 summary={
                   <ul className="list-inside">
-                      <li>
-                        Full Stack Application for managing a car dearership.
-                      </li>
-                       <li>
-                        Skills: React, Django, BootStrap, Docker, Rest API
-                      </li>
-                    </ul>
-
+                    <li>
+                      Full Stack Application for managing a car dearership.
+                    </li>
+                    <li>Skills: React, Django, BootStrap, Docker, Rest API</li>
+                  </ul>
                 }
                 img={proj2}
                 link="https://help.dreamhost.com/hc/en-us/articles/215613517-Site-not-found"
@@ -308,15 +375,14 @@ export default function Projects() {
                 type="Website"
                 title="Shadow Wrestler"
                 summary={
-                    <ul className="list-inside">
-                      <li>
-                        Built a user-friendly UI for wrestling athletes to practice with. 
-                      </li>
-                      <li>
-                        Skills: React, Tailwind, Figma 
-                      </li>
-                    </ul>
-                  }
+                  <ul className="list-inside">
+                    <li>
+                      Built a user-friendly UI for wrestling athletes to
+                      practice with.
+                    </li>
+                    <li>Skills: React, Tailwind, Figma</li>
+                  </ul>
+                }
                 img={proj3}
                 link="https://shadow-wrestler.com"
                 github="https://github.com/JDelott/jdelott.github.io"
@@ -327,21 +393,18 @@ export default function Projects() {
                 type="Website"
                 title="ConferenceGo"
                 summary={
-                    <ul className="list-inside">
-                      <li>
-                        Full Stack Application for managing a conference business.
-                      </li>
-                      <li>
-                        Skills: Django, Html/CSS, Insomnia, Message Passing
-                      </li>
-                    </ul>
-                  }
+                  <ul className="list-inside">
+                    <li>
+                      Full Stack Application for managing a conference business.
+                    </li>
+                    <li>Skills: Django, Html/CSS, Insomnia, Message Passing</li>
+                  </ul>
+                }
                 img={proj4}
                 link="https://help.dreamhost.com/hc/en-us/articles/215613517-Site-not-found"
                 github="https://github.com/JDelott/"
               />
             </div>
-            
           </div>
         </Layout>
       </main>

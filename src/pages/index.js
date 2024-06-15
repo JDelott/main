@@ -8,9 +8,7 @@ import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
-
 export default function Home() {
-  
   return (
     <>
       <Head>
@@ -31,7 +29,7 @@ export default function Home() {
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
-                style={{ border: '25px solid black' }}
+                style={{ border: "25px solid black" }}
               />
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
@@ -41,9 +39,11 @@ export default function Home() {
               />
               <AnimatedText
                 text="Full Stack Developer"
-                className="!text-center text-base lg:text-xl"/>
+                className="!text-center text-base lg:text-xl"
+              />
               <p className="!text-center my-4 text-base font-medium md:text-sm sm:!text-xs">
-               Python | React | PostgreSQL
+                Javascript | Typescript | React | Python | PostgreSQL | MERN |
+                Next.js
               </p>
               <div className="mt-2 flex items-center self-center justify-center lg:self-center">
                 <Link
@@ -105,9 +105,6 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-
-        
-        
       </article>
     </>
   );
